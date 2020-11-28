@@ -1,4 +1,4 @@
 #!/bin/bash
 apt update
-apt install ffmpeg vlc -y
-pip install -r /app/requirements.txt
+apt install ffmpeg vlc python3-pip -y
+pip3 install -r requirements.txt
